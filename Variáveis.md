@@ -4,7 +4,7 @@
 - const
 - var 
 
-(let e const são as variáveis mais usadas atualmente)
+- (**let** e **const** são as variáveis mais usadas atualmente)
 
 ### let
 A keyword `let` pode ser usada para criar uma variável de nome opcional, logo em seguida, usamos o `=` junto com um valor para armazenar uma informação dentro da variável criada. Ex.:
@@ -28,7 +28,10 @@ Antigamente, a keyword `var` era a única forma de criar uma variável dentro do
 ## Boas-Práticas
 
 ### Convenção Camel Case
-Convenção usada em Javascript, na qual foi determinado que o modo correto de nomear variáveis siga um determinado "template" para que seu código seja mais legível, chamado Camel Case (Caixa de Camelo). Ex.:
+Convenção usada em Javascript, na qual foi determinado que o modo correto de nomear variáveis siga um determinado "template" para que seu código seja mais legível.
+- Camel Case significa "Caixa de Camelo"
+
+Ex.:
 ```
 let anoAtual = 2022;
 let mesAniversárioPai = "maio";
